@@ -1,0 +1,8 @@
+textarea.form-control {
+    width: 100% !important;
+}
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 400px; 
+}
+  

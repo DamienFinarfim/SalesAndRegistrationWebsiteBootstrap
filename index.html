@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./imagens/Logo.png" alt="Imagem Exemplo" class="img-fluid">
+                    <h1><b><u>InSTYLE</u></b></h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./cadastro.html"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/pc_gamer01.jpg" class="d-block w-100" alt="..."> 
+                        </div>
+                        <div class="carousel-caption">
+                            <h5 class="text-truncate">Melhore sua performace nos jogos mais atuais</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/pc-gamer02.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5 class="text-truncate">Personalize seu computador da forma que preferir</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/pc-gamer03.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-caption">
+                            <h5 class="text-truncate">Torne sua experiência de trabalho ainda mais produtiva</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Somos uma empresa que possui 8 anos no mercado. Trabalhamos com equipamentos com a melhor qualidade do mercado, das melhores marcas.</p>
+                    <p>Tornamos as suas necessidades uma realidade através da melhor configuração que possa atender no seu game, no seu estudo e no seu trabalho.</p>
+                    <p>Nosso time é altamente especializado e capacitado para entregar uma máquina que fará diferença no seu dia a dia.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./imagens/sistema-loja-de-informatica.jpg" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Produtos</h2>
+                    <div class="card">
+                        <img src="./imagens/pc_gamer_user.png" alt="Imagem Gamer" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">GAMER USER</h5>
+                            <p class="card-text">Configuração ideal para quem não dispensa rodas os melhores jogos da atualidade em qualidade máxima e uma máquina ideal para realizar seus trabalhos sem nenhuma dificuldade.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >ver configuração</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagens/pc_gamer_heavey_user.png" alt="Imagem Heavy" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">HEAVY USER</h5>
+                            <p class="card-text">Configuração ideal para usuários que precisam ter uma máquina que atenda todas suas exigências, tanto em jogos como trabalhando com programas que exigem mais poder de processamento.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2" >ver configuração</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagens/pc_gamer_extreme_user.png" alt="Imagem Xtreme" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">XTREME USER</h5>
+                            <p class="card-text">Configuração ideal para quem não dispensa desempenho ao máximo, com grande poder de processamento, placa de vídeo de ultima geração, grande espaço de armazenamento.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3" >ver configuração</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário ao lado, informando qual configuração ideal que melhor possa atender suas nescessidades. Em caso de dúvida entre em contato conosco para que possamos exclarecer.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">GAMER USER</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira a configuração</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Componentes</th>
+                                <th>Modelo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Processador:</td>
+                                <td>AMD Ryzen 7 5800X Box (AM4/4.7GHz/36MB Cache)</td>
+                            </tr>
+                            <tr>
+                                <td>Placa mãe:</td>
+                                <td>Asus TuF Gaming X570-Plus/BR AMD AM4 Atx DDR4</td>
+                            </tr>
+                            <tr>
+                                <td>Mémoria:</td>
+                                <td>Kingston HyperX Fury DDR4 2666Mhz Black HX426C16FB/16 1x16GB</td>
+                            </tr>
+                            <tr>
+                                <td>Placa de vídeo:</td>
+                                <td>Nvidia Galax GeForce RTX 3060 12GB 36NOL7MD1VOC</td>
+                            </tr>
+                            <tr>
+                                <td>SSD Nvme M2:</td>
+                                <td>Corsair Force Series MP600 500GB</td>
+                            </tr>
+                            <tr>
+                                <td>Fonte:</td>
+                                <td>Corsair CX-M Series CX650M 650W Black 100V/240V</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">GAMER USER</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira a configuração</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Componentes</th>
+                                <th>Modelo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Processador:</td>
+                                <td>AMD Ryzen 9 5950x, Cache 70MB, 3.7GHz (4.8GHz Max Turbo)</td>
+                            </tr>
+                            <tr>
+                                <td>Placa mãe:</td>
+                                <td>Asus TuF Gaming X570-Plus/BR AMD AM4 Atx DDR4</td>
+                            </tr>
+                            <tr>
+                                <td>Mémoria:</td>
+                                <td>Kingston HyperX Fury DDR4 2666Mhz Black HX426C16FB/16 32GB 2x16GB </td>
+                            </tr>
+                            <tr>
+                                <td>Placa de vídeo:</td>
+                                <td>Nvidia Asus GeForce RTX 3080 Ti TUF-RTX3080TI-O12G-GAMING OC Edition 12GB</td>
+                            </tr>
+                            <tr>
+                                <td>SSD Nvme M2:</td>
+                                <td>Intel 660p Series SSDPEKNW010T8X1 1TB</td>
+                            </tr>
+                            <tr>
+                                <td>Fonte:</td>
+                                <td>Corsair CX-M Series CX750M 750W Black 100V/240V</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">HEAVY USER</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira a configuração</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Componentes</th>
+                                <th>Modelo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Processador:</td>
+                                <td>Intel Core I9-12900K BX8071512900K (16 núcleos e 5.2GHz)</td>
+                            </tr>
+                            <tr>
+                                <td>Placa mãe:</td>
+                                <td>Asus ROG STRIX Z690-F GAMING WIFI LGA 1700</td>
+                            </tr>
+                            <tr>
+                                <td>Mémoria:</td>
+                                <td>Kingston  Hyperx Fury Rgb 64gb 4x16gb 3200mhz</td>
+                            </tr>
+                            <tr>
+                                <td>Placa de vídeo:</td>
+                                <td>EVGA GeForce RTX 3080 Ti XC3 GAMING, 12G-P5-3953-KR, 12GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate</td>
+                            </tr>
+                            <tr>
+                                <td>SSD Nvme M2:</td>
+                                <td>Samsung 970 EVO Plus MZ-V7S2T0 2TB</td>
+                            </tr>
+                            <tr>
+                                <td>Fonte:</td>
+                                <td>Corsair HX Series HX1200 1200W Black 100V/240V</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
