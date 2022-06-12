@@ -1,4 +1,3 @@
-## Site_de_vendas_e_cadastro_com_Bootstrap
+### Site de vendas e cadastro com Bootstrap
 
-### Para melhorar a interface do site foi utilizado funcionalidades do Bootstrap
-### O cadastro do site foi realizado também utilizando funcionalidades do Bootstrap
+#### Foi utilizado para elaboração do site o framework Bootstrap para melhorar a interface e as aplicações da página.
